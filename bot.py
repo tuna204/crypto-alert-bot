@@ -3,7 +3,7 @@ import aiohttp
 from telegram import Bot
 
 # --- Configuration ---
-BOT_TOKEN = "7893461428:AAFLhyyKn1WpXvFzsKAhp28oXZZmNW_gnJQ"
+BOT_TOKEN = ""
 CHAT_ID = 1219995305  # Replace with your Telegram user ID
 TARGET_PRICE = 0.12
 CHECK_INTERVAL = 60  # in seconds
