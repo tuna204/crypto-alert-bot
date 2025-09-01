@@ -27,7 +27,7 @@ async def get_current_price(coin_id):
         return None
 
 async def send_alert(price):
-    message = f"🚨 {COIN_ID.upper()} hit ${price} USD!\nTarget was ${TARGET_PRICE}."
+    message = f"🚨 {COIN_ID.upper()} hitt ${price} USD!\nTarget was ${TARGET_PRICE}."
     await bot.send_message(chat_id=CHAT_ID, text=message)
 
 async def main():
@@ -43,3 +43,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
